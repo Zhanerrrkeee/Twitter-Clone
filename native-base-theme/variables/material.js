@@ -18,7 +18,7 @@ export default {
   // Badge
   badgeBg: "#ED1727",
   badgeColor: "#fff",
-  // New Variable
+  // New V
   badgePadding: platform === "ios" ? 3 : 0,
 
   // Button
@@ -26,7 +26,7 @@ export default {
   btnDisabledBg: "#b5b5b5",
   btnDisabledClr: "#f1f1f1",
 
-  // CheckBox
+  // CheckB
   CheckboxRadius: 0,
   CheckboxBorderWidth: 2,
   CheckboxPaddingLeft: 2,
@@ -47,7 +47,7 @@ export default {
   segmentBorderColor: "#fff",
   segmentBorderColorMain: "#3F51B5",
 
-  // New Variable
+  // New V
   get defaultTextColor() {
     return this.textColor;
   },

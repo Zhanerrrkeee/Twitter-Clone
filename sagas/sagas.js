@@ -149,9 +149,4 @@ const postTweet = payload => {
     replies: 0
   });
 };
-
-// const helloSaga = function* helloSaga() {
-//   console.log("Hello Sagas!");
-// };
-
-// export default helloSaga;
+return;

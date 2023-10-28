@@ -60,7 +60,7 @@ export default (variables = variable) => {
         "NativeBase.IconNB": { color: variables.topTabBarActiveTextColor },
         alignSelf: null
       },
-      flex: 1,
+      flex:1.5,
       alignSelf: "center",
       alignItems: "flex-end"
     },

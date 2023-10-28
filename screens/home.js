@@ -2,38 +2,10 @@ import React, { Component } from "react";
 import * as Expo from "expo";
 import Modal from "react-native-modalbox";
 import Dimensions from "Dimensions";
-import {
-  StyleSheet,
-  View,
-  Text,
-  FlatList,
-  TouchableHighlight,
-  Platform
-} from "react-native";
-import {
-  Container,
-  Header,
-  Body,
-  Content,
-  Left,
-  Title,
-  Thumbnail,
-  Col,
-  Row,
-  Grid,
-  Icon,
-  Spinner,
-  Fab,
-  Button,
-  Footer,
-  Input,
-  Right
-} from "native-base";
+import { StyleSheet,View,Text,FlatList,TouchableHighlight,Platform} from "react-native";
+import {Container, Header,Body,Content,Left,Title,  Thumbnail,Col,Row,  Grid,  Icon,  Spinner,Fab,Button,  Footer,  Input, Right} from "native-base";
 import { connect } from "react-redux";
-// import { fetchTweets } from "../actions/tweetsActions";
-// import ScrollableTabView, {
-//   ScrollableTabBar
-// } from "react-native-scrollable-tab-view";
+
 
 const styles = StyleSheet.create({
   topMargin: {
@@ -358,3 +330,4 @@ export default class HomeScreen extends Component {
     );
   }
 }
+// zhanerke

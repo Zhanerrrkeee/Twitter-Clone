@@ -5,29 +5,7 @@ import getTheme from "../native-base-theme/components";
 import platform from "../native-base-theme/variables/platform";
 import material from "../native-base-theme/variables/material";
 import { NavigationActions } from "react-navigation";
-import {
-  Container,
-  Button,
-  Text,
-  Header,
-  Left,
-  Body,
-  Right,
-  Icon,
-  Title,
-  StyleProvider,
-  Content,
-  Grid,
-  Col,
-  Row,
-  Input,
-  Item,
-  Form,
-  Label,
-  Footer,
-  FooterTab,
-  Spinner
-} from "native-base";
+import {Container,Button,Text,Header,Left,Body,  Right,Icon,Title,StyleProvider,Content,Grid,Col,Row,Input,Item,Form,Label,Footer,FooterTab,  Spinner} from "native-base";
 import { setUsername } from "../actions/loginActions";
 import { connect } from "react-redux";
 

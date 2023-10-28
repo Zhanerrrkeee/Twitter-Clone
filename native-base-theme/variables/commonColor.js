@@ -18,15 +18,15 @@ export default {
   // Badge
   badgeBg: "#ED1727",
   badgeColor: "#fff",
-  // New Variable
+  // New V
   badgePadding: platform === "ios" ? 3 : 0,
 
-  // Button
+  // But
   btnFontFamily: platform === "ios" ? "System" : "Roboto_medium",
   btnDisabledBg: "#b5b5b5",
   btnDisabledClr: "#f1f1f1",
 
-  // CheckBox
+  // Checkb
   CheckboxRadius: platform === "ios" ? 13 : 0,
   CheckboxBorderWidth: platform === "ios" ? 1 : 2,
   CheckboxPaddingLeft: platform === "ios" ? 4 : 2,
@@ -47,7 +47,7 @@ export default {
   segmentBorderColor: "#fff",
   segmentBorderColorMain: "#3F51B5",
 
-  // New Variable
+  // New V
   get defaultTextColor() {
     return this.textColor;
   },
@@ -252,7 +252,7 @@ export default {
   subTitleFontSize: platform === "ios" ? 12 : 14,
   subtitleColor: "#FFF",
 
-  // New Variable
+  // New v
   titleFontColor: "#FFF",
 
   // Other
@@ -272,6 +272,6 @@ export default {
   deviceWidth,
   deviceHeight,
 
-  // New Variable
+  // New V
   inputGroupRoundedBorderRadius: 30
 };

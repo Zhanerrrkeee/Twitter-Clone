@@ -25,10 +25,10 @@ import {
   Button,
   Spinner
 } from "native-base";
-// import ParallaxScrollView from "react-native-parallax-scroll-view";
+
 
 import { connect } from "react-redux";
-// import { fetchTweets } from "../actions/tweetsActions";
+
 
 const AnimatedFlatList = Animated.createAnimatedComponent(FlatList);
 
@@ -42,14 +42,14 @@ const styles = StyleSheet.create({
     backgroundColor: "white"
   },
   avatarbg: {
-    //marginTop: -95,
+    //marginTop:
     marginLeft: 20,
     padding: 10,
     width: 100,
     height: 100,
     borderRadius: 50,
     zIndex: 12
-    // borderRadius: 180
+    // borderRadius
   },
   avatar: {
     marginLeft: 26,
@@ -90,7 +90,7 @@ const styles = StyleSheet.create({
     color: "#555"
   },
   topMargin: {
-    // marginTop: 25
+    // marginTop
   },
   content: {
     padding: 10,
